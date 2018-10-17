@@ -1,0 +1,58 @@
+@import "foundation";
+
+
+.top-image {
+  padding: 0;
+  width: 100%;
+}
+
+.header__greeting {
+  font-family: dinpro regular;
+  font-size: 20px;
+}
+
+.invitation {
+  font-family: dinpro regular;
+  font-size: 20px;
+}
+
+.event {
+  font-family: dinpro medium;
+  color: #eb2e2e;
+  font-size: 22px;
+}
+
+.decorative-line-red {
+  height: 3px;
+  background: red;
+}
+
+.blabla { 
+  padding: 0 20px;
+}
+
+.decorative-line {
+  height: 2px;
+  background: $grey;
+  margin: 0 auto;
+}
+
+.racer_name {
+  font-family: dinpro light;
+  font-size: 18px;
+}
+
+table.button {
+  margin-bottom: 0;
+  table {
+    td {
+      padding: map-get($button-padding, default);
+      a {
+        padding: 0px;
+      }
+    }
+  }
+}
+
+
+
